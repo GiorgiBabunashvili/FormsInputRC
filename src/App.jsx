@@ -1,6 +1,7 @@
 import Header from "./components/Header.jsx";
 import Login from "./components/Login.jsx";
 import LoginREF from "./components/LoginREF.jsx";
+import Signup from "./components/Signup.jsx";
 
 function App() {
   return (
@@ -8,7 +9,8 @@ function App() {
       <Header />
       <main>
         {/* <Login /> */}
-        <LoginREF />
+        {/* <LoginREF /> */}
+        <Signup />
       </main>
     </>
   );
